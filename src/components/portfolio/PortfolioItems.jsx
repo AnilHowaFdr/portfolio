@@ -1,6 +1,6 @@
 const PortfolioItems = () => {
   return (
-    <section>
+    <section className="py-20">
       <div className="container"></div>
     </section>
   );
