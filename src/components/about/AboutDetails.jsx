@@ -15,10 +15,10 @@ const AboutDetails = () => {
               <span className="text-4xl pt-3 ">This is Anil Howa....</span>
             </h3>
             <p className="w-auto pt-5 font-primary font-medium leading-8 text-lg text-balance text-white">
-              Welcome to my profile! I am a Front End Developer with over 2
-              years experience in this field. I specialize in HTML, CSS,
-              Bootstrap, Tailwind, JavaScript, React and Next js to create
-              custom, functional and user friendly web. I am strong believer in
+              Welcome to my profile! I am a Front End Developer with over 1 year
+              experience in this field. I specialize in HTML, CSS, Bootstrap,
+              Tailwind, JavaScript, React and Next js to create custom,
+              functional and user friendly web. I am strong believer in
               communication and collaboration and I always work closely with my
               clients to ensure that their needs are met and exceeded.
             </p>

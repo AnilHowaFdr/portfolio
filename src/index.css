@@ -6,3 +6,7 @@
 .Heading {
   @apply font-primary text-5xl text-primary font-bold;
 }
+.gradient_text {
+  -webkit-background-clip: text;
+  @apply bg-gradient-to-t from-orange-600 to-[#e88a17e7] text-transparent;
+}

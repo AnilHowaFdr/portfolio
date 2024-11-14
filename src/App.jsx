@@ -11,7 +11,6 @@ import Service from "./pages/Service";
 import Portfolio from "./pages/Portfolio";
 import Testimonial from "./pages/Testimonial";
 import Contact from "./pages/Contact";
-import Skill from "./pages/Skill";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -22,7 +21,6 @@ const App = () => {
         <Route path="service" element={<Service />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="testimonial" element={<Testimonial />} />
-        <Route path="skill" element={<Skill />} />
         <Route path="contact" element={<Contact />} />
       </Route>
     )

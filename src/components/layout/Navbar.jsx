@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiMenu } from "react-icons/hi";
 import DarkMode from "../utilities/DarkMode";
 import { Link } from "react-router-dom";
-
+import { motion } from "motion/react";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
@@ -33,14 +33,6 @@ const Navbar = () => {
                   className="duration-300 text-lg font-bold  inline-block px-2 cursor-pointer hover:border-b-primary hover:border-b-4 hover:text-primary"
                 >
                   About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/skill"
-                  className="duration-300 text-lg font-bold  inline-block px-2 cursor-pointer hover:border-b-primary hover:border-b-4 hover:text-primary"
-                >
-                  Skill
                 </Link>
               </li>
               <li>

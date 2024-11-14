@@ -2,7 +2,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { FaHandPointRight } from "react-icons/fa";
-
+import { motion } from "motion/react";
 const Hero = () => {
   const settings = {
     infinite: true,
@@ -24,7 +24,7 @@ const Hero = () => {
             <h1 className="font-primary text-6xl font-bold text-secondary">
               I am <span className="text-primary uppercase">Anil Howa</span>
             </h1>
-            <h2 className="font-primary flex items-center gap-8 text-primary py-6 text-4xl font-bold">
+            <h2 className="gradient_text font-primary flex items-center gap-8 text-primary py-6 text-4xl font-bold">
               <span>
                 <FaHandPointRight className="text-5xl text-secondary" />
               </span>

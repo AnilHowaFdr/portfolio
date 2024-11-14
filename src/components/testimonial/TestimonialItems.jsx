@@ -1,7 +1,7 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { FaQuoteLeft, FaStar } from "react-icons/fa";
+import Testimonialtools from "./Testimonialtools";
 const TestimonialItems = () => {
   const settings = {
     dots: true,
@@ -19,36 +19,33 @@ const TestimonialItems = () => {
         <h2 className="Heading pb-3 border-b-4 dark:text-white border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
           Testimonial
         </h2>
-        <p className="pt-10 text-lg text-center font-medium dark:text-white text-secondary font-primary">
+        <p className="pt-5 text-lg w-3/4 m-auto pb-20 text-center font-medium dark:text-white text-secondary font-primary">
           View public client reviews, where each client shares their perspective
           on working with us. I always prioritize strong communication and
           effective collaboration throughout each project.
         </p>
         <div>
           <Slider {...settings}>
-            <div className="px-3 py-6 bg-third border-4 border-primary rounded-lg">
-              <div className="flex justify-between items-start">
-                <FaQuoteLeft className="text-xl text-secondary" />
-                <ul className="flex gap-1 items-center text-secondary">
-                  <li>
-                    <FaStar />
-                  </li>
-                  <li>
-                    <FaStar />
-                  </li>
-                  <li>
-                    <FaStar />
-                  </li>
-                  <li>
-                    <FaStar />
-                  </li>
-                </ul>
-              </div>
-              <p>Very flexible and great work</p>
-              <div>
-                <img src="/profile" alt="image not found" />
-                <h3>Tahmina Akter</h3>
-              </div>
+            <div>
+              <Testimonialtools
+                src="/profile.jpg"
+                detail="Your strong technical skills and attention to detail have made a big impact. Your deliver high-quality work and collaborate effectively with the team. Highly recommended."
+                title="Shetu Barman"
+              />
+            </div>
+            <div>
+              <Testimonialtools
+                src="/profile.jpg"
+                detail="Your strong technical skills and attention to detail have made a big impact. Your deliver high-quality work and collaborate effectively with the team. Highly recommended"
+                title="Elias Hasan"
+              />
+            </div>
+            <div>
+              <Testimonialtools
+                src="/profile.jpg"
+                detail="She is best in communciation and understanding what needs to be done. I was surprised how fast she completed the job. Will definitely work again with her."
+                title="Habibullah Ansary"
+              />
             </div>
           </Slider>
         </div>
