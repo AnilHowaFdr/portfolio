@@ -14,7 +14,7 @@ const Skill = () => {
         </p>
 
         <div className=" bg-[#DBD3D3] mt-10 px-5 py-10 rounded-lg">
-          <ul className="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-10 gap-8 items-center justify-center">
+          <ul className="grid grid-cols-3 sm:grid-cols-5 lg:flex gap-8 items-center justify-center">
             <li className="w-16 h-16">
               <img src="/html.png" alt="html" />
             </li>
@@ -39,7 +39,7 @@ const Skill = () => {
             <li className="w-16 h-16">
               <img src="/tailwind.png" alt="html" />
             </li>
-            <li className="w-16 h-16">
+            <li className="w-16 h-16 ">
               <img src="/JQuery.png" alt="html" />
             </li>
             <li className="w-16 h-16">
