@@ -2,9 +2,9 @@ import PortfolioTools from "./PortfolioTools";
 
 const PortfolioItems = () => {
   return (
-    <section className="py-20">
+    <section className="py-20 dark:bg-gray-950">
       <div className="container ">
-        <h2 className="Heading pb-3 border-b-4 border-secondary border-dashed w-fit m-auto text-center ">
+        <h2 className="Heading pb-3 border-b-4 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
           Projects ShowCase
         </h2>
         <p className="w-auto lg:w-[800px] pt-10 text-center m-auto font-primary font-medium leading-8 text-lg text-balance dark:text-white text-secondary">

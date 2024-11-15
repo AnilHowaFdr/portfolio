@@ -3,19 +3,19 @@ import { Link } from "react-router-dom";
 
 const ContactItems = () => {
   return (
-    <section className="py-14">
+    <section className="py-14 dark:bg-gray-950">
       <div className="container">
         <div className=" py-8 px-6">
           <div className="">
-            <h2 className="text-5xl text-center font-primary text-primary font-bold">
+            <h2 className="w-auto text-5xl text-center font-primary text-primary font-bold">
               "Let’s team up to make your next project a success."
             </h2>
-            <p className="font-normal text-xl pt-9 pb-2 text-center">
+            <p className="w-auto font-normal text-xl pt-9 pb-2 text-center">
               Feel free to reach out to me via email:
             </p>
             <p className="text-center">
               <Link
-                className="border-b-2 border-b-secondary font-medium text-xl text-secondary"
+                className="border-b-2 border-b-secondary font-medium text-xl text-secondary dark:text-white"
                 to="https://howa.anil@gmail.com"
               >
                 howa.anil@gmail.com

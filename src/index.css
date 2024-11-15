@@ -10,3 +10,6 @@
   -webkit-background-clip: text;
   @apply bg-gradient-to-t from-orange-600 to-[#e88a17e7] text-transparent;
 }
+.error {
+  @apply text-lg font-primary text-red-500;
+}
