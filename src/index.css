@@ -4,11 +4,11 @@
 @tailwind utilities;
 
 .Heading {
-  @apply font-primary text-5xl text-primary font-bold;
+  @apply font-primary text-2xl md:text-3xl lg:text-5xl text-primary font-bold;
 }
 .gradient_text {
   -webkit-background-clip: text;
-  @apply bg-gradient-to-t from-orange-600 to-[#e88a17e7] text-transparent;
+  @apply bg-gradient-to-l from-secondary to-primary text-transparent;
 }
 .error {
   @apply text-lg font-primary text-red-500;

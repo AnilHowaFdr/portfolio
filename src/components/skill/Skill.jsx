@@ -5,7 +5,7 @@ const Skill = () => {
         <h2 className="Heading pb-3 border-b-4 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
           Skill ShowCase
         </h2>
-        <p className="w-auto lg:w-[800px] pt-14 text-center m-auto font-primary font-medium leading-8 text-lg text-balance dark:text-white text-secondary">
+        <p className="w-auto px-2 lg:w-[800px] pt-14  font-primary font-medium leading-7 lg:leading-8 text-xs lg:text-lg text-center lg:text-balance dark:text-white text-secondary">
           I have extensive knowledge of front-end technologies that I am
           confident will meet your needs. Customer satisfaction is my top
           priority and I pride myself on maintaining strict adherence to
@@ -13,8 +13,8 @@ const Skill = () => {
           showcased below for your review. You can rely on me!!!
         </p>
 
-        <div className=" bg-[#DBD3D3] mt-10 px-5 py-10 rounded-lg">
-          <ul className="grid grid-cols-3 sm:grid-cols-5 lg:flex gap-8 items-center justify-center">
+        <div className=" bg-fifth mt-10 mx-2 px-5 py-10 rounded-lg">
+          <ul className="px-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 items-center justify-evenly lg:justify-between lg:flex gap-3 lg:gap-8 ">
             <li className="w-16 h-16">
               <img src="/html.png" alt="html" />
             </li>

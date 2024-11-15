@@ -5,7 +5,7 @@ const Price = () => {
         <h2 className="Heading pb-3 border-b-4 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
           Price
         </h2>
-        <p className="w-[700px] dark:text-white pt-10 text-center m-auto font-primary font-medium leading-8 text-lg text-secondary">
+        <p className="w-auto lg:w-[700px] dark:text-white pt-10 text-center m-auto font-primary font-medium leading-8 text-lg text-secondary">
           For your review, I have outlined all my service packages, each
           designed to provide excellent value for your investment. I offer a
           100% money-back guarantee until you are fully satisfied, and I also

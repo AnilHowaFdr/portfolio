@@ -19,10 +19,10 @@ const Hero = () => {
       <div className="container">
         <div className="flex flex-col lg:flex-row items-center gap-10 lg:justify-between ">
           <div className="w-1/2">
-            <h2 className="font-primary py-6 text-5xl font-bold text-secondary dark:text-white">
+            <h2 className="font-primary py-6 text-2xl text-center lg:text-start sm:text-3xl lg:text-5xl font-bold text-secondary dark:text-white">
               Hello!
             </h2>
-            <h1 className="font-primary text-4xl lg:text-6xl font-bold text-secondary dark:text-white">
+            <h1 className="font-primary text-center lg:text-start text-2xl md:text-4xl lg:text-6xl font-bold text-secondary dark:text-white">
               I am <span className="text-primary uppercase">Anil Howa</span>
             </h1>
             <h2 className="flex items-center gap-3 lg:gap-6">
@@ -30,7 +30,7 @@ const Hero = () => {
                 <FaHandPointRight className="text-3xl lg:text-5xl text-secondary dark:text-white" />
               </span>
               <ReactTyped
-                className="gradient_text font-primary text-primary py-6 text-2xl lg:text-4xl font-bold"
+                className="gradient_text font-primary text-third py-6 text-xl sm:text-2xl lg:text-4xl font-bold"
                 strings={["Front End Developer", "React Developer", "Coder"]}
                 typeSpeed={40}
                 backSpeed={50}
@@ -38,13 +38,13 @@ const Hero = () => {
               />
             </h2>
 
-            <p className="w-auto pt-5 font-primary font-medium leading-8 text-lg text-balance dark:text-white text-secondary">
+            <p className="w-auto pt-5 font-primary font-medium leading-8 text-lg text-center lg:text-start text-balance dark:text-white text-secondary">
               To build an eyecatching website with clear coding, user-friendly
               and get fast delivery, you can hire me.I am passionate about my
               work and I am always looking for new and innovative ways to
               improve my skills and knowledge.
             </p>
-            <div className="flex mt-10 gap-5 ">
+            <div className="flex justify-center mt-10 gap-5 ">
               <button className="px-5 uppercase py-3 bg-primary text-secondary rounded-lg text-xl font-semibold">
                 Resume
               </button>

@@ -7,22 +7,22 @@ const ContactItems = () => {
       <div className="container">
         <div className=" py-8 px-6">
           <div className="">
-            <h2 className="w-auto text-5xl text-center font-primary text-primary font-bold">
+            <h2 className="w-auto text-2xl md:text-3xl lg:text-5xl text-center font-primary text-primary font-bold">
               "Let’s team up to make your next project a success."
             </h2>
-            <p className="w-auto font-normal text-xl pt-9 pb-2 text-center">
+            <p className="w-auto font-normal text-lg lg:text-xl pt-9 pb-2 text-center">
               Feel free to reach out to me via email:
             </p>
             <p className="text-center">
               <Link
-                className="border-b-2 border-b-secondary font-medium text-xl text-secondary dark:text-white"
+                className="border-b-2 border-b-secondary font-medium text-lg text-secondary dark:text-white"
                 to="https://howa.anil@gmail.com"
               >
                 howa.anil@gmail.com
               </Link>
             </p>
             <div className="mt-8">
-              <ul className="flex items-center justify-center dark:text-white text-2xl gap-6 text-secondary">
+              <ul className="flex items-center justify-center dark:text-white text-xl lg:text-2xl gap-6 text-secondary">
                 <li>
                   <Link to="https://www.linkedin.com/in/anil-howa-profile1/">
                     <FaLinkedin />

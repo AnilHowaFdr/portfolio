@@ -37,13 +37,13 @@ const Footer = () => {
     }
   };
   return (
-    <footer className="py-20 dark:bg-gray-950">
+    <footer className="py-20 px-2 dark:bg-gray-950">
       <div className="container">
         <form
           onSubmit={handleSubmit}
           className="flex flex-col items-center w-full m-auto justify-center gap-3 "
         >
-          <h2 className="uppercase text-3xl pb-4 font-semibold font-primary dark:text-white text-secondary">
+          <h2 className="uppercase text-xl md:text-2xl lg:text-3xl pb-4 font-semibold font-primary dark:text-white text-secondary">
             Get in touch
           </h2>
           <input
@@ -51,7 +51,7 @@ const Footer = () => {
             type="text"
             onChange={handleName}
             placeholder="Name"
-            className="text-secondary font-medium font-primary text-lg border rounded-lg w-1/2 px-2 py-3"
+            className="w-full text-secondary font-medium font-primary text-base lg:text-lg border rounded-lg sm:w-1/2 px-2 py-3"
           />
           <p className="error">{nameErr}</p>
           <input
@@ -60,7 +60,7 @@ const Footer = () => {
             placeholder="Email"
             email="Email"
             onChange={handleEmail}
-            className="text-secondary font-medium font-primary text-lg border rounded-lg w-1/2 px-2 py-3"
+            className="w-full text-secondary font-medium font-primary text-base lg:text-lg border rounded-lg sm:w-1/2 px-2 py-3"
           />
           <p className="error">{emailErr}</p>
           <textarea
@@ -68,7 +68,7 @@ const Footer = () => {
             onChange={handleMessage}
             placeholder="Message"
             message="Message"
-            className="text-secondary font-medium font-primary text-lg border rounded-lg w-1/2 px-2 h-40 py-3"
+            className="w-full text-secondary font-medium font-primary text-base lg:text-lg border rounded-lg sm:w-1/2 px-2 h-40 py-3"
           />
           <p className="error">{messageErr}</p>
           <button className="mt-5 py-3 px-6 font-primary text-xl text-white cursor-pointer bg-primary">

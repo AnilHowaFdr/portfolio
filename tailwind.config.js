@@ -18,9 +18,11 @@ export default {
         wiggle: "wiggle 1s ease-in-out infinite",
       },
       colors: {
-        primary: "#EC8305",
-        secondary: "#091057",
-        third: "#DBD3D3",
+        primary: "#229799",
+        secondary: "#424242",
+        third: "#48CFCB",
+        fourth: "#48CFCB",
+        fifth: "#F5F5F5",
       },
       fontFamily: {
         primary: ["Inter", "sans-serif"],
