@@ -1,13 +1,13 @@
 const AboutDetails = () => {
   return (
-    <section className="py-10 bg-secondary">
+    <section className="py-10 bg-secondary dark:bg-gray-950">
       <div className="container">
         <h2 className="Heading pb-2 border-b-4 border-white border-dashed w-fit m-auto text-center ">
           About
         </h2>
-        <div className="flex items-start justify-between mt-28">
+        <div className="flex flex-col md:flex-row gap-10 items-center md:items-start md:justify-between mt-10 md:mt-28">
           <div className="w-2/5">
-            <img src="/profile.jpg" alt="" />
+            <img src="/profile2.jpeg" alt="" />
           </div>
           <div className="w-3/5">
             <h3 className="font-primary font-semibold flex flex-col text-3xl text-primary">

@@ -2,9 +2,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Testimonialtools from "./Testimonialtools";
+import NextArrow from "../utilities/NextArrow";
+import PrevArrow from "../utilities/PrevArrow";
 const TestimonialItems = () => {
   const settings = {
-    dots: true,
     infinite: true,
     speed: 800,
     slidesToShow: 1,
@@ -12,6 +13,8 @@ const TestimonialItems = () => {
     autoplaySpeed: 4000,
     cssEase: "ease-in-out",
     pauseOnFocus: true,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
   };
   return (
     <section className="py-20 dark:bg-gray-950">

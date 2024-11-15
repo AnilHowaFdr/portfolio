@@ -7,9 +7,9 @@ const WorkingProcess = () => {
         <h2 className="Heading pb-3 border-b-4 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
           Working Process
         </h2>
-        <p className="w-[700px] pt-10 text-center dark:text-white m-auto font-primary font-medium leading-8 text-lg text-secondary">
-          Here’s an outline of my workflow from start to finish. While you might
-          feel concerned about your project, I’m confident that my process will
+        <p className="w-auto lg:w-[700px] pt-10 text-center dark:text-white m-auto font-primary font-medium leading-8 text-lg text-secondary">
+          Here's an outline of my workflow from start to finish. While you might
+          feel concerned about your project, I'm confident that my process will
           put you at ease and ensure a smooth, worry-free experience.
         </p>
         <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">

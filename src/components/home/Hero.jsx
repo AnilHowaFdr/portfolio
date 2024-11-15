@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { FaHandPointRight } from "react-icons/fa";
 import { motion } from "motion/react";
+import { ReactTyped } from "react-typed";
 const Hero = () => {
   const settings = {
     infinite: true,
@@ -16,20 +17,27 @@ const Hero = () => {
   return (
     <section className="py-3">
       <div className="container">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col lg:flex-row items-center gap-10 lg:justify-between dark:bg-gray-950">
           <div className="w-1/2">
             <h2 className="font-primary py-6 text-5xl font-bold text-secondary">
               Hello!
             </h2>
-            <h1 className="font-primary text-6xl font-bold text-secondary">
+            <h1 className="font-primary text-4xl lg:text-6xl font-bold text-secondary">
               I am <span className="text-primary uppercase">Anil Howa</span>
             </h1>
-            <h2 className="gradient_text font-primary flex items-center gap-8 text-primary py-6 text-4xl font-bold">
+            <h2 className="flex items-center gap-3 lg:gap-6">
               <span>
-                <FaHandPointRight className="text-5xl text-secondary" />
+                <FaHandPointRight className="text-3xl lg:text-5xl text-secondary" />
               </span>
-              Front End Developer With React
+              <ReactTyped
+                className="gradient_text font-primary text-primary py-6 text-2xl lg:text-4xl font-bold"
+                strings={["Front End Developer", "React Developer", "Coder"]}
+                typeSpeed={40}
+                backSpeed={50}
+                loop={true}
+              />
             </h2>
+
             <p className="w-auto pt-5 font-primary font-medium leading-8 text-lg text-balance text-secondary">
               To build an eyecatching website with clear coding, user-friendly
               and get fast delivery, you can hire me.I am passionate about my
