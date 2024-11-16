@@ -4,11 +4,11 @@ import WorkingProcess from "../components/service/WorkingProcess";
 
 const Service = () => {
   return (
-    <>
+    <div className="pt-20">
       <ServiceItems />
       <WorkingProcess />
       <Price />
-    </>
+    </div>
   );
 };
 

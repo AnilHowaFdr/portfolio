@@ -14,7 +14,7 @@ const Skill = () => {
         </p>
 
         <div className=" bg-fifth mt-10 mx-2 px-5 py-10 rounded-lg">
-          <ul className="px-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 items-center justify-evenly lg:justify-between lg:flex gap-3 lg:gap-8 ">
+          <ul className="px-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:justify-between lg:flex gap-2 lg:gap-8 ">
             <li className="w-16 h-16">
               <img src="/html.png" alt="html" />
             </li>

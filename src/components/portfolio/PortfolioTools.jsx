@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const PortfolioTools = ({ src1, src2 }) => {
   return (
-    <div className="md:w-1/3 w-full px-2 relative ">
+    <div className="w-auto px-2 relative ">
       <div className="border bg-gray-200 border-primary rounded-md p-5 dark:border-white">
         <div className=" ">
           <img className="w-full" src="/portfolio1.png" alt="img not found" />

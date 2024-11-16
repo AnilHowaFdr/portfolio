@@ -2,10 +2,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Testimonialtools from "./Testimonialtools";
-import NextArrow from "../utilities/NextArrow";
-import PrevArrow from "../utilities/PrevArrow";
+
 const TestimonialItems = () => {
   const settings = {
+    dots: true,
     infinite: true,
     speed: 800,
     slidesToShow: 1,
@@ -13,12 +13,11 @@ const TestimonialItems = () => {
     autoplaySpeed: 4000,
     cssEase: "ease-in-out",
     pauseOnFocus: true,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    arrows: false,
   };
   return (
     <section className="py-20 dark:bg-gray-950">
-      <div className="container">
+      <div className="container px-4 sm:px-6 lg:px-8">
         <h2 className="Heading pb-3 border-b-4 dark:text-white border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
           Testimonial
         </h2>
@@ -31,21 +30,21 @@ const TestimonialItems = () => {
           <Slider {...settings}>
             <div>
               <Testimonialtools
-                src="/profile.jpg"
+                src="/user4.png"
                 detail="Your strong technical skills and attention to detail have made a big impact. Your deliver high-quality work and collaborate effectively with the team. Highly recommended."
                 title="Shetu Barman"
               />
             </div>
             <div>
               <Testimonialtools
-                src="/profile.jpg"
+                src="/user5.png"
                 detail="Your strong technical skills and attention to detail have made a big impact. Your deliver high-quality work and collaborate effectively with the team. Highly recommended"
                 title="Elias Hasan"
               />
             </div>
             <div>
               <Testimonialtools
-                src="/profile.jpg"
+                src="/user3.png"
                 detail="She is best in communciation and understanding what needs to be done. I was surprised how fast she completed the job. Will definitely work again with her."
                 title="Habibullah Ansary"
               />

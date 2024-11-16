@@ -7,11 +7,11 @@ const ServiceItems = () => {
         <h2 className="Heading pb-3 border-b-4 dark:text-white border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
           Service
         </h2>
-        <p className="pt-10 text-lg text-center font-medium dark:text-white text-secondary font-primary">
+        <p className="pt-10 w-auto px-3 text-base md:text-lg text-center text-balance font-medium dark:text-white text-secondary font-primary">
           Here is an overview of my services. Choose me for your project to
           experience quality results and dedicated support.
         </p>
-        <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-5">
           <ServiceTools
             src="/web design.png"
             heading="UI/UX Research"

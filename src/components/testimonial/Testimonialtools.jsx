@@ -1,7 +1,7 @@
 import { FaQuoteLeft, FaStar } from "react-icons/fa";
 const Testimonialtools = ({ detail, title, src }) => {
   return (
-    <div className="px-10 py-8 mx-2 mb-4 bg-third border-4 border-primary rounded-tl-sm rounded-tr-3xl rounded-bl-3xl rounded-br-sm w-auto md:w-3/4 m-auto">
+    <div className=" shadow-lg rounded-lg p-6 px-10 py-8 mx-2 mb-4 bg-third border-4 border-primary rounded-tl-sm rounded-tr-3xl rounded-bl-3xl rounded-br-sm">
       <div className="flex justify-between items-start">
         <FaQuoteLeft className="text-xl lg:text-3xl text-secondary" />
         <ul className="flex gap-1 items-center text-lg lg:text-2xl text-secondary">
@@ -24,7 +24,7 @@ const Testimonialtools = ({ detail, title, src }) => {
       </p>
       <div>
         <img
-          className="rounded-full w-24 h-24 lg:w-32 lg:h-32"
+          className="rounded-full w-24 h-24 lg:w-32 lg:h-32 object-cover border-2 border-third shadow-xl"
           src={src}
           alt="image not found"
         />

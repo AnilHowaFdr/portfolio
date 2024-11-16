@@ -15,17 +15,17 @@ const Hero = () => {
     pauseOnFocus: true,
   };
   return (
-    <section className="dark:bg-gray-950">
+    <section className="dark:bg-gray-950 py-10">
       <div className="container">
         <div className="flex flex-col lg:flex-row items-center gap-10 lg:justify-between ">
-          <div className="w-1/2">
+          <div className="w-1/2 lg:px-2">
             <h2 className="font-primary py-6 text-2xl text-center lg:text-start sm:text-3xl lg:text-5xl font-bold text-secondary dark:text-white">
               Hello!
             </h2>
             <h1 className="font-primary text-center lg:text-start text-2xl md:text-4xl lg:text-6xl font-bold text-secondary dark:text-white">
               I am <span className="text-primary uppercase">Anil Howa</span>
             </h1>
-            <h2 className="flex items-center gap-3 lg:gap-6">
+            <h2 className="flex items-center gap-3 lg:gap-6 justify-center lg:justify-start">
               <span>
                 <FaHandPointRight className="text-3xl lg:text-5xl text-secondary dark:text-white" />
               </span>
@@ -44,7 +44,7 @@ const Hero = () => {
               work and I am always looking for new and innovative ways to
               improve my skills and knowledge.
             </p>
-            <div className="flex justify-center mt-10 gap-5 ">
+            <div className="flex justify-center lg:justify-start mt-10 gap-5 ">
               <button className="px-5 uppercase py-3 bg-primary text-secondary rounded-lg text-xl font-semibold">
                 Resume
               </button>
@@ -55,7 +55,7 @@ const Hero = () => {
           </div>
           <div className="w-1/2">
             <img
-              className="rounded-full w-full overflow-hidden"
+              className="rounded-full w-auto lg:w-full overflow-hidden"
               src="/profile.jpg"
               alt="profile"
             />

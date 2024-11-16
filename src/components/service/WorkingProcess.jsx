@@ -12,7 +12,7 @@ const WorkingProcess = () => {
           feel concerned about your project, I'm confident that my process will
           put you at ease and ensure a smooth, worry-free experience.
         </p>
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-5">
           <WorkingProcessItems
             src="/conversation.jpg"
             heading="Conversation"

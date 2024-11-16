@@ -11,7 +11,15 @@ const PortfolioItems = () => {
           Some of my Projects are showcased below for your review. You can rely
           on me!!!
         </p>
-        <div className="flex gap-5 pt-20 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-20 ">
+          <PortfolioTools
+            src1="https://e-commerce-website-farny-with-react.vercel.app/"
+            src2="https://github.com/AnilHowaFdr/E-Commerce-Website-Farny-with-React-.git"
+          />
+          <PortfolioTools
+            src1="https://e-commerce-website-farny-with-react.vercel.app/"
+            src2="https://github.com/AnilHowaFdr/E-Commerce-Website-Farny-with-React-.git"
+          />
           <PortfolioTools
             src1="https://e-commerce-website-farny-with-react.vercel.app/"
             src2="https://github.com/AnilHowaFdr/E-Commerce-Website-Farny-with-React-.git"
