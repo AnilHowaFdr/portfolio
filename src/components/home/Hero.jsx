@@ -45,10 +45,10 @@ const Hero = () => {
               improve my skills and knowledge.
             </p>
             <div className="flex justify-center lg:justify-start mt-10 gap-5 ">
-              <button className="px-5 uppercase py-3 bg-primary text-secondary rounded-lg text-xl font-semibold">
+              <button className="px-5 uppercase py-3 bg-primary text-fifth rounded-lg text-xl font-semibold">
                 Resume
               </button>
-              <button className="uppercase px-5 py-3 bg-primary text-secondary rounded-lg text-xl font-semibold">
+              <button className="uppercase px-5 py-3 bg-primary text-fifth rounded-lg text-xl font-semibold">
                 Hire Me
               </button>
             </div>

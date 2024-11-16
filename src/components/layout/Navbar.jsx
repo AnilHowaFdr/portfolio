@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="container px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
-            <h1 className="text-primary font-bold text-3xl lg:text-5xl">
+            <h1 className="text-primary font-bold text-xl md:text-2xl lg:text-5xl">
               <Link to="/">Anil Howa.</Link>
             </h1>
           </div>
