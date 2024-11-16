@@ -24,7 +24,7 @@ const AboutDetails = () => {
               communication and collaboration and I always work closely with my
               clients to ensure that their needs are met and exceeded.
             </p>
-            <div className="mt-8">
+            <div className="mt-8 text-center lg:text-start">
               <p className="text-white  font-primary font-medium text-base md:text-lg lg:text-2xl">
                 <span className="text-primary">Nationality</span>: Bangladeshi
               </p>

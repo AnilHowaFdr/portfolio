@@ -1,11 +1,11 @@
 const Skill = () => {
   return (
     <section className="py-10 dark:bg-gray-950">
-      <div className="container">
+      <div className="container px-4">
         <h2 className="Heading pb-3 border-b-4 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
           Skill ShowCase
         </h2>
-        <p className="w-auto px-2 lg:w-[800px] pt-14  font-primary font-medium leading-7 lg:leading-8 text-xs lg:text-lg text-center lg:text-balance dark:text-white text-secondary">
+        <p className="w-auto px-2 lg:w-[800px] pt-14 font-primary font-medium leading-7 lg:leading-8 text-xs lg:text-lg text-center lg:text-balance dark:text-white text-secondary">
           I have extensive knowledge of front-end technologies that I am
           confident will meet your needs. Customer satisfaction is my top
           priority and I pride myself on maintaining strict adherence to
