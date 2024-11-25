@@ -20,7 +20,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/"
-                className="px-3 py-2 duration-300 text-lg font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
+                className="px-3 py-2 duration-300 text-base font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
               >
                 Home
               </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/about"
-                className="px-3 py-2 duration-300 text-lg font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
+                className="px-3 py-2 duration-300 text-base font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
               >
                 About
               </Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/service"
-                className="px-3 py-2 duration-300 text-lg font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
+                className="px-3 py-2 duration-300 text-base font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
               >
                 Service
               </Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/portfolio"
-                className="px-3 py-2 duration-300 text-lg font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
+                className="px-3 py-2 duration-300 text-base font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
               >
                 Portfolio
               </Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/testimonial"
-                className="px-3 py-2 duration-300 text-lg font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
+                className="px-3 py-2 duration-300 text-base font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
               >
                 Testimonial
               </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/contact"
-                className="duration-300 text-lg font-bold  inline-block px-2 cursor-pointer hover:border-b-white md:hover:border-b-primary hover:border-b-4 md:hover:text-primary"
+                className="duration-300 text-base font-bold  inline-block px-2 cursor-pointer hover:border-b-white md:hover:border-b-primary hover:border-b-4 md:hover:text-primary"
               >
                 Contact
               </Link>

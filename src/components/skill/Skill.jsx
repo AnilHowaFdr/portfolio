@@ -2,16 +2,18 @@ const Skill = () => {
   return (
     <section className="py-10 dark:bg-gray-950">
       <div className="container px-4 lg:px-8">
-        <h2 className="Heading pb-3 border-b-4 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
-          Skill ShowCase
-        </h2>
-        <p className="w-auto px-2 lg:w-[800px] pt-14 font-primary font-medium leading-7 lg:leading-8 text-xs lg:text-lg text-center lg:text-balance dark:text-white text-secondary">
-          I have extensive knowledge of front-end technologies that I am
-          confident will meet your needs. Customer satisfaction is my top
-          priority and I pride myself on maintaining strict adherence to
-          schedules, which I consider one of my strengths. My skills are
-          showcased below for your review. You can rely on me!!!
-        </p>
+        <div className="flex flex-col items-center">
+          <h2 className="Heading pb-3 border-b-4 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
+            Skill ShowCase
+          </h2>
+          <p className="w-auto lg:w-[900px] pt-14 font-primary font-medium leading-7 lg:leading-8 text-xs lg:text-lg text-center lg:text-balance dark:text-white text-secondary">
+            I have extensive knowledge of front-end technologies that I am
+            confident will meet your needs. Customer satisfaction is my top
+            priority and I pride myself on maintaining strict adherence to
+            schedules, which I consider one of my strengths. My skills are
+            showcased below for your review. You can rely on me!!!
+          </p>
+        </div>
 
         <div className=" bg-fifth mt-10 mx-2 px-5 py-10 rounded-lg">
           <ul className="px-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:justify-between lg:flex gap-2 lg:gap-8 ">
