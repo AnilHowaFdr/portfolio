@@ -1,7 +1,7 @@
 const Skill = () => {
   return (
     <section className="py-10 dark:bg-gray-950">
-      <div className="container px-4">
+      <div className="container px-4 lg:px-8">
         <h2 className="Heading pb-3 border-b-4 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
           Skill ShowCase
         </h2>

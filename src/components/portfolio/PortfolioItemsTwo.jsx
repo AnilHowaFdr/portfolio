@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
 import PortfolioTools from "./PortfolioTools";
 
-const PortfolioItems = () => {
+const PortfolioItemsTwo = () => {
   return (
     <section className="py-20 dark:bg-gray-950">
       <div className="container px-4 lg:px-8">
@@ -14,24 +13,23 @@ const PortfolioItems = () => {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-20 ">
           <PortfolioTools
+            src="/portfolio1.png"
             src1="https://e-commerce-website-farny-with-react.vercel.app/"
             src2="https://github.com/AnilHowaFdr/E-Commerce-Website-Farny-with-React-.git"
+          />
+          <PortfolioTools
+            src="/portfolio4.png"
+            src1="https://resilient-crepe-d038a6.netlify.app"
+            src2="https://github.com/AnilHowaFdr/chit-chat"
           />
           <PortfolioTools
             src1="https://e-commerce-website-farny-with-react.vercel.app/"
             src2="https://github.com/AnilHowaFdr/E-Commerce-Website-Farny-with-React-.git"
           />
-          <PortfolioTools
-            src1="https://e-commerce-website-farny-with-react.vercel.app/"
-            src2="https://github.com/AnilHowaFdr/E-Commerce-Website-Farny-with-React-.git"
-          />
-        </div>
-        <div className="mt-8  py-3 px-6 w-fit font-primary text-lg transition-all text-white cursor-pointer m-auto bg-primary">
-          <Link to="/portfolio">View More</Link>
         </div>
       </div>
     </section>
   );
 };
 
-export default PortfolioItems;
+export default PortfolioItemsTwo;

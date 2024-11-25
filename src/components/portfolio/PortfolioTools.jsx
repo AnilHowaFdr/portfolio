@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
-const PortfolioTools = ({ src1, src2 }) => {
+const PortfolioTools = ({ src, src1, src2 }) => {
   return (
     <div className="w-auto px-2 relative ">
       <div className="border bg-gray-200 border-primary rounded-md p-5 dark:border-white">
         <div className=" ">
-          <img className="w-full" src="/portfolio1.png" alt="img not found" />
+          <img className="w-full" src={src} alt="img not found" />
           <h3 className="pt-3 text-2xl font-semibold font-primary  text-secondary">
             E-Commerce Website
           </h3>

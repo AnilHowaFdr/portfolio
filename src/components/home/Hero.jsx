@@ -16,7 +16,7 @@ const Hero = () => {
   };
   return (
     <section className="dark:bg-gray-950 py-10">
-      <div className="container">
+      <div className="container px-4 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-10 lg:justify-between ">
           <div className="w-1/2 lg:px-2">
             <h2 className="font-primary py-6 text-2xl text-center lg:text-start sm:text-3xl lg:text-5xl font-bold text-secondary dark:text-white">

@@ -38,7 +38,7 @@ const Footer = () => {
   };
   return (
     <footer className="py-20 px-2 dark:bg-gray-950">
-      <div className="container">
+      <div className="container px-4 lg:px-8">
         <form
           onSubmit={handleSubmit}
           className="flex flex-col items-center w-full m-auto justify-center gap-3 "
