@@ -13,7 +13,7 @@ const TestimonialItems = () => {
     autoplaySpeed: 4000,
     cssEase: "ease-in-out",
     pauseOnFocus: true,
-    arrows: false,
+    arrows: true,
   };
   return (
     <section className="py-20 dark:bg-gray-950">

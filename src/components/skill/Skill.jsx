@@ -1,6 +1,6 @@
 const Skill = () => {
   return (
-    <section className="py-14 dark:bg-gray-950">
+    <section className="py-20 dark:bg-gray-950 bg-amber-50">
       <div className="container px-4 lg:px-8">
         <div className="flex flex-col items-center">
           <h2 className="Heading pb-3 border-b-2 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
@@ -15,7 +15,7 @@ const Skill = () => {
           </p>
         </div>
 
-        <div className=" bg-fifth mt-10 mx-2 px-5 py-10 rounded-lg">
+        <div className=" dark:bg-fifth mt-10 mx-2 px-5 py-10 rounded-lg">
           <ul className="px-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:justify-between lg:flex gap-2 lg:gap-8 ">
             <li className="w-16 h-16">
               <img src="/html.png" alt="html" />

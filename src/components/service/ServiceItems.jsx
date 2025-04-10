@@ -4,7 +4,7 @@ const ServiceItems = () => {
   return (
     <section className="py-12 dark:bg-gray-950">
       <div className="container px-4 lg:px-8">
-        <h2 className="Heading pb-3 border-b-4 dark:text-white border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
+        <h2 className="Heading pb-3 border-b-2 dark:text-white border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
           Service
         </h2>
         <p className="pt-10 w-auto px-3 text-base md:text-lg text-center text-balance font-medium dark:text-white text-secondary font-primary">

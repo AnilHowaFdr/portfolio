@@ -11,6 +11,7 @@ import Service from "./pages/Service";
 import Portfolio from "./pages/Portfolio";
 import Testimonial from "./pages/Testimonial";
 import Contact from "./pages/Contact";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -27,7 +28,10 @@ const App = () => {
   );
   return (
     <>
-      <RouterProvider router={router} />
+      <div>
+        <RouterProvider router={router} />
+      </div>
+      <Toaster />
     </>
   );
 };

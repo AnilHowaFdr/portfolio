@@ -1,77 +1,71 @@
-import { useState } from "react";
+import axios from "axios";
+import { useForm } from "react-hook-form";
+import toast from "react-hot-toast";
 
 const Footer = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
-  const [nameErr, setNameErr] = useState("");
-  const [emailErr, setEmailErr] = useState("");
-  const [messageErr, setMessageErr] = useState("");
-
-  const handleName = (e) => {
-    setName(e.target.value);
-    setNameErr("");
-  };
-  const handleEmail = (e) => {
-    setEmail(e.target.value);
-    setEmailErr("");
-  };
-  const handleMessage = (e) => {
-    setMessage(e.target.value);
-    setMessageErr("");
-  };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!name) {
-      setNameErr("Name is required");
-    } else if (!email) {
-      setEmailErr("Email is required");
-    } else if (!message) {
-      setMessageErr("Message is required");
-    } else {
-      alert("Submitted Successfully");
-      setName("");
-      setEmail("");
-      setMessage("");
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = async (data) => {
+    const userInfo = {
+      name: data.name,
+      email: data.email,
+      message: data.message,
+    };
+    try {
+      await axios.post("https://getform.io/f/bllynxjb", userInfo);
+      toast.success("Your message has been sent!");
+    } catch (error) {
+      toast.error("Something went wrong");
     }
   };
   return (
-    <footer className="py-32 px-2 dark:bg-gray-950">
+    <footer className="py-32 px-2 dark:bg-gray-950 ">
       <div className="container px-4 lg:px-8">
         <form
-          onSubmit={handleSubmit}
+          onSubmit={handleSubmit(onSubmit)}
+          // action="https://getform.io/f/bllynxjb"
+          // method="POST"
           className="flex flex-col items-center w-full m-auto justify-center gap-3 "
         >
           <h2 className="uppercase text-xl md:text-2xl lg:text-3xl pb-4 font-semibold font-primary dark:text-white text-secondary">
             Get in touch
           </h2>
           <input
-            required
+            {...register("name", { required: true })}
             type="text"
-            onChange={handleName}
+            id="name"
+            name="name"
             placeholder="Name"
-            className="w-full text-secondary font-medium font-primary text-base lg:text-lg border rounded-lg sm:w-1/2 px-2 py-3"
+            className="w-full text-secondary font-medium font-primary text-base lg:text-lg border rounded-lg sm:w-1/2 px-2 py-3 dark:text-gray-200"
           />
-          <p className="error">{nameErr}</p>
+          {errors.name && <span>Name is required</span>}
+
           <input
-            required
+            {...register("email", { required: true })}
             type="email"
+            id="email"
+            name="email"
             placeholder="Email"
             email="Email"
-            onChange={handleEmail}
-            className="w-full text-secondary font-medium font-primary text-base lg:text-lg border rounded-lg sm:w-1/2 px-2 py-3"
+            className="w-full text-secondary font-medium font-primary text-base lg:text-lg border rounded-lg sm:w-1/2 px-2 py-3 dark:text-gray-200"
           />
-          <p className="error">{emailErr}</p>
+          {errors.email && <span>Email is required</span>}
           <textarea
-            required
-            onChange={handleMessage}
-            placeholder="Message"
+            {...register("message", { required: true })}
+            placeholder="Your Message ..."
+            name="message"
             message="Message"
-            className="w-full text-secondary font-medium font-primary text-base lg:text-lg border rounded-lg sm:w-1/2 px-2 h-40 py-3"
+            className="w-full text-secondary font-medium font-primary text-base lg:text-lg border rounded-lg sm:w-1/2 px-2 h-40 py-3 dark:text-gray-200"
           />
-          <p className="error">{messageErr}</p>
-          <button className="mt-5 py-3 px-6 font-primary text-xl text-white cursor-pointer bg-primary">
+          {errors.message && <span>Message is required</span>}
+          <button
+            type="submit"
+            className="mt-5 py-3 px-6 font-primary text-xl text-white cursor-pointer bg-primary"
+          >
             Submit
           </button>
         </form>

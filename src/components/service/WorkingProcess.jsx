@@ -4,7 +4,7 @@ const WorkingProcess = () => {
   return (
     <section className="py-20 dark:bg-gray-950">
       <div className="container px-4 lg:px-8">
-        <h2 className="Heading pb-3 border-b-4 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
+        <h2 className="Heading pb-3 border-b-2 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
           Working Process
         </h2>
         <p className="w-auto lg:w-[700px] pt-10 text-center dark:text-white m-auto font-primary font-medium leading-8 text-lg text-secondary">

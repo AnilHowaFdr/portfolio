@@ -3,7 +3,7 @@ import DarkMode from "../utilities/DarkMode";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
@@ -72,7 +72,7 @@ const Navbar = () => {
           <div className="flex gap-3 md:hidden">
             <button
               onClick={toggleMenu}
-              className="text-primary hover:text-fifth focus:outline-none"
+              className="text-primary hover:text-fifth focus:outline-hidden"
             >
               {showMenu ? <FaTimes size={24} /> : <FaBars size={24} />}
             </button>
@@ -87,6 +87,7 @@ const Navbar = () => {
           <ul className="px-2 pt-2 pb-3 space-y-2 sm:px-3 flex flex-col justify-center items-center bg-third">
             <li>
               <Link
+                onClick={toggleMenu}
                 to="/"
                 className="block px-3 py-2 duration-300 text-lg font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
               >
@@ -95,6 +96,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                onClick={toggleMenu}
                 to="/about"
                 className="block px-3 py-2 duration-300 text-lg font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
               >
@@ -103,6 +105,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                onClick={toggleMenu}
                 to="/service"
                 className="block px-3 py-2 duration-300 text-lg font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
               >
@@ -111,6 +114,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                onClick={toggleMenu}
                 to="/portfolio"
                 className="block px-3 py-2 duration-300 text-lg font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
               >
@@ -119,6 +123,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                onClick={toggleMenu}
                 to="/testimonial"
                 className="block px-3 py-2 duration-300 text-lg font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
               >
@@ -127,6 +132,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                onClick={toggleMenu}
                 to="/contact"
                 className="block duration-300 text-lg font-bold px-2 cursor-pointer hover:border-b-white md:hover:border-b-primary hover:border-b-4 md:hover:text-primary"
               >
