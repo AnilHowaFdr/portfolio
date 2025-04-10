@@ -15,7 +15,7 @@ const Hero = () => {
     pauseOnFocus: true,
   };
   return (
-    <section className="dark:bg-gray-950 py-10">
+    <section className="dark:bg-gray-950 pt-20 py-14">
       <div className="container px-4 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-10 lg:justify-between ">
           <div className="w-1/2 lg:px-2">
@@ -53,13 +53,13 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className="w-1/2">
+          {/* <div className="w-1/2">
             <img
-              className="rounded-full w-auto lg:w-full overflow-hidden"
-              src="/profile.jpg"
+              className="border-2 w-[450px] h-[450px] rounded-full overflow-hidden"
+              src="/image2.jpg"
               alt="profile"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

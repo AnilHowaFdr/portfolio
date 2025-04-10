@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ContactItems = () => {
   return (
-    <section className="py-14 dark:bg-gray-950">
+    <section className="pt-44 pb-24 dark:bg-gray-950">
       <div className="container px-4 lg:px-8">
         <div className=" py-8 px-6">
           <div className="">

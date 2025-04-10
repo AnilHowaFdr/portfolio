@@ -1,11 +1,11 @@
 const AboutDetails = () => {
   return (
-    <section className="py-10 px-2 bg-secondary dark:bg-gray-950">
+    <section className="py-14 px-2 bg-secondary dark:bg-gray-950">
       <div className="container px-4 lg:px-8">
-        <h2 className="Heading pb-2 border-b-4 border-white border-dashed w-fit m-auto text-center ">
+        <h2 className="Heading pb-2 border-b-2 border-white border-dashed w-fit m-auto text-center ">
           About
         </h2>
-        <div className="flex flex-col lg:flex-row gap-10 items-center lg:items-start md:justify-between mt-10 md:mt-28">
+        <div className="flex flex-col lg:flex-row gap-10 items-center md:justify-between mt-10 md:mt-28">
           <div className="w-2/5">
             <img src="/profile2.jpeg" alt="" />
           </div>
